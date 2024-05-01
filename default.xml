@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com/" />
-  <remote name="carlodandan" fetch="https://github.com/carlodandan" revision="A14" />
+  <remote name="edward0181" fetch="https://github.com/edward0181" revision="A14" />
 
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
 
-  <project path="sm6375" name="android_kernel_samsung_sm6375" clone-depth="1" remote="carlodandan" />
+  <project path="sm6375" name="android_kernel_samsung_sm6375" clone-depth="1" remote="edward0181" />
   
   <project path="build" name="kernel/build" />
   <project path="hikey-modules" name="kernel/hikey-modules" revision="android-5.4" />
