@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com/" />
-  <remote name="edward0181" fetch="git@github.com:edward0181/" revision="main" />
+  <remote name="edward0181" fetch="https://github.com/edward0181" revision="main" />
 
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
 
